@@ -20,7 +20,7 @@ description: >
 # root of your server.
 baseurl: "/centrarium" # the subpath of your site, e.g. /blog/
 url: "http://bencentra.github.io" # the base hostname & protocol for your site
-cover: "/assets/redigerad bild.jpg"
+cover: "/assets/redigerad_bild.jpg"
 logo: "/assets/logo.png"
 
 # Build settings
