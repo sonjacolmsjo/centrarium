@@ -4,7 +4,7 @@ title: Bilder och ritningar
 permalink: /bilder_och_ritningar/
 ---
 
-Exteriörbilder
+# Exteriörbilder
 
 <img src="http://gf33.se/images/img_3450.jpeg" >
 
@@ -12,7 +12,7 @@ Exteriörbilder
 
 <img src="http://gf33.se/images/img_3452.jpeg" >
 
-Ritningar
+# Ritningar
 
 Undervåning:
 
