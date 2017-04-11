@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+<style>
+
+      .l-map {
+        width: 100%;
+        height: 800px;
+        background-color: grey;
+      }
+</style>
 <div class="home">
 
 <div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
@@ -20,13 +28,13 @@ layout: default
   <p> Gf33 är en kontors- och lagerfastighet som ligger på Banggårdsvägen 33. Bangårdsvägen ligger centralt i Kållered vid E6:an med en pendelsstågsstation precis bredvid. Vi erbjuder lager och kontorsyta på upp till 600 kvadratmeter. Det finns möjligheter att göra anpassningar av ytorna till nya hyresgäster.
 
   Kontakta info@gf33.se om du vill ha mer information eller vill boka en visning. </p>
-</div>
+
 
 
 	<div id="map" class="l-map"></div><br/>
   GPS koordinater: 57.609747, 12.047848
 
-
+</div>
 
 
     <script>
