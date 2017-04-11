@@ -26,7 +26,13 @@
             <span class="username">{{ site.email }}</span>
           </a>
         </li>
+				
+        <li>
+						<i class="fa fa-phone" aria-hidden="true"></i>
+            <span class="username">{{ site.phone }}</span>
+        </li>				
 
+				
         {% for social in site.social %}
           {% if social.url != null %}
           <li>
