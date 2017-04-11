@@ -21,3 +21,27 @@ layout: default
 
   Kontakta info@gf33.se om du vill ha mer information eller vill boka en visning. </p>
 </div>
+
+
+	<div id="map" class="l-map"></div><br/>
+  GPS koordinater: 57.609747, 12.047848
+
+
+
+
+    <script>
+      function initMap() {
+        var uluru = {lat: 57.609747, lng: 12.047848};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA97l-D3WhxdKMWqUIsqbqfwku5l2Eol-Y&callback=initMap">
+    </script>
